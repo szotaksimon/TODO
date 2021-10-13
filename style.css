@@ -1,0 +1,72 @@
+ul{ 
+    list-style-type: none;
+    padding: 0;
+    max-height: 420px;
+    overflow-y: auto;
+  }
+
+span {
+    float: right;
+    cursor:pointer;
+    margin-right: 15px;
+    font-weight: 700;
+}
+p {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1.5px solid black;
+    box-sizing: border-box;
+    padding: 7px;
+    border: none;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    border: 1px solid rgb(192, 192, 192);
+
+
+}
+
+#main-div{
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2);
+    height: 500px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+button {
+    box-sizing: border-box;
+    padding: 7px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(192, 192, 192);
+}
+body{
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+    color: rgb(65, 64, 64);
+
+}
+#no-task{
+    margin-left: 10px;
+}
+
+#second-div{
+    position: absolute;
+    top: 90%;
+}
+
